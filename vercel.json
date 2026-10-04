@@ -1,0 +1,6 @@
+{
+  "rewrites": [
+    { "source": "/vsl", "destination": "/" },
+    { "source": "/vsl/(.*)", "destination": "/$1" }
+  ]
+}
